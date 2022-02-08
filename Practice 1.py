@@ -1,2 +1,7 @@
-print("zack")
-
+name = input("please enter your name: ")
+print("Name is: ", name)
+age = int(input("please enter your age: "))
+print("age is: ", age)
+print("in 5 years", name, "will be", age + 5)
+print("----------------------------------")
+print(name, "is ", age, "year's old")
